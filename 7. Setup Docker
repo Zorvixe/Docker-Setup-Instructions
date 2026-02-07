@@ -1,0 +1,14 @@
+Setup Docker
+Download Docker Installer https://hub.docker.com/editions/community/docker-ce-desktop-windows/ and double-click Docker Desktop Installer.exe from your admin account to run the installer.
+When prompted, ensure the Enable WSL 2 Features option is selected on the Configuration page.
+Follow the instructions on the installation wizard authorize the installer and proceed with the install.
+When the installation is successful, click Close to complete the installation process.
+
+To start Docker Desktop, search for Docker, and select Docker Desktop in the search results.
+
+
+When the whale icon in the status bar stays steady, Docker Desktop is up-and-running, and is accessible from any terminal window.
+
+
+Enable Docker Integration with the WSL
+
