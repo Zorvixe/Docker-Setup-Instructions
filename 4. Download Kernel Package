@@ -1,0 +1,7 @@
+Download Kernel Package
+Download the latest WSL2 Linux kernel update package for x64 PCs https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+Run the update package downloaded in the previous step. (Double-click to run - you will be prompted for elevated permissions, select "yes" to approve this installation.)
+Common Errors
+
+1. This update only applies to machines with the windows Subsystem for Linux. (Popup)
+This only happens if you have missed one of the previous steps. Or if you still need to install some of the Windows Updates. Please check for Windows updates and re-do the previous steps again to fix this issue.
