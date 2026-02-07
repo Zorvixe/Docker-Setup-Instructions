@@ -1,0 +1,25 @@
+Install Linux Distribution
+Install Ubuntu https://www.microsoft.com/en-in/p/ubuntu/9nblggh4msv6 from Microsoft Store.
+Once the installation is complete, open "Ubuntu" from start-menu.
+Enter a new username and password for the WSL environment when prompted.
+Note
+Password will not be visible when you're typing.
+Common Errors
+
+1. WslRegisterDistribution failed with error: 0x80080005
+Error: 0x80080005 Server execution failed
+Uninstall Ubuntu, follow the below steps, and reinstall ubuntu.
+
+Please ensure that CPU virtualization and Virtual Machine Platform Windows features are enabled.
+
+CPU Virtualization:
+
+Open Task Manager.
+Click on the performance tab, There you can see virtualization is enabled or not.
+If it's not enabled please enable it in BIOS Settings.
+Virtualization
+For Virtual Machine Platform :
+
+Search for Windows Features in your taskbar.
+Then look for Virtual Machine Platform and enable it.
+Virtual Machine Platform
