@@ -1,0 +1,10 @@
+Setting up a sample workspace
+Now your IDE is ready, let’s create a sample workspace by running the following commands
+Step - 1 : Authentication
+Authenticate to Advance Learning Portal
+ccbp authenticate 2P5MK7SITH
+Step - 2 : Start a sample project
+Create a sample workspace and get the project’s files
+ccbp start FNLL8QE5WE
+Right click on the index.html, select Open With -> Preview to view the output
+And you are all set for working on your further projects! 
