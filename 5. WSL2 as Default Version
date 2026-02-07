@@ -1,0 +1,12 @@
+Set WSL 2 as your default version
+Open PowerShell and run this command to set WSL 2 as the default version.
+
+Powershell
+1
+wsl --set-default-version 2
+Common Errors
+
+1. The term wsl is not recognized as the name of the cmdlet ....
+This only happens if you have missed one of the previous steps. Or if you still need to install some of the Windows Updates.
+
+Please check for Windows updates and re-do the previous steps again to fix this issue.
