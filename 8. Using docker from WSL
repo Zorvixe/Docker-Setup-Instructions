@@ -1,0 +1,19 @@
+Using docker from WSL
+Now search for Ubuntu in your installed applications and start the application. A terminal will be opened.
+
+Run the below command to see the docker version
+
+SHELL
+1
+docker -v
+Run the below command to install the prerequisites for the IDE
+SHELL
+1
+curl -s https://assets.ccbp.in/ide/windows-post-docker-installation.sh | bash
+Restart your PC
+Starting the IDE
+Open the Ubuntu application and run the below step to start the IDE
+SHELL
+1
+cd ~/ccbp-ide && docker-compose up -d
+Access the IDE from http://localhost http://localhost/
