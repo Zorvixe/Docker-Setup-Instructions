@@ -1,0 +1,18 @@
+System Requirements
+The following hardware prerequisites are required to successfully setup CCBP IDE in your Windows System
+
+A 64-bit Windows 10 with Version 1903 or higher, with a Build higher than 18363.1049.
+A 15 GB free space on C: Drive
+8 GB system RAM (Minimum).
+BIOS-level hardware virtualization support must be enabled in the BIOS settings.
+Note
+For smooth running of the IDE, it is recommended to have 8 GB of RAM and an SSD for C: drive.
+With a lesser configuration, you will experience your PC to hang occasionally as the setup is Memory and Disk intensive.
+If your PC has less than 8 GB RAM, then installing Ubuntu OS alongside Windows and working on Ubuntu instead is recommended over doing the following setup.
+Warning
+If your PC date & time are incorrect, then you will run into issues during installation and usage. You need to update your PC's date & time and restart it before proceeding further.
+
+Quick Tip
+To check your version and build number, select Windows logo key + R , type winver, select OK.
+Note
+If you are running an older version of Windows 10, open "Settings" from your Windows menu, navigate to "Update & Security" and select "Check for Updates". Install all available updates and feature updates. You may need to restart multiple times in the process.
